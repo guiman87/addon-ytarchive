@@ -1,0 +1,17 @@
+
+name: "ytarchive"
+description: "An add-on to download YouTube livestreams using ytarchive."
+init: false
+version: "2.8"
+slug: "ytarchive"
+arch:
+  - aarch64
+  - amd64
+options:
+  youtube_url: ""
+schema:
+  youtube_url: str
+map:
+  - share:rw
+services:
+  - mqtt:need

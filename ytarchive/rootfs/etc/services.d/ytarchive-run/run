@@ -1,0 +1,6 @@
+#!/command/with-contenv bashio
+# ==============================================================================
+# Service to start YouTube livestream recording using ytarchive
+# ==============================================================================
+
+exec /usr/bin/ytarchive_start.sh

@@ -1,0 +1,7 @@
+#!/command/with-contenv bashio
+# ==============================================================================
+# Service to stop YouTube livestream recording
+# ==============================================================================
+
+exec /usr/bin/ytarchive_stop.sh
+
